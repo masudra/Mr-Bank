@@ -61,7 +61,7 @@ document.getElementById('Withdraw-submit-btn').addEventListener('click',function
      withdrawFild.value = '';
 
      if(newWithdrawAmount >= BalanceTotoal11  ){
-        alert('Your account does not have enough money ')
+        alert('Your account does not have enough money. You must have one dollar left in your account')
         return;
     }
     const totalwithdraw = newWithdrawAmount + curentWithdrawAmount;
